@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Number Shuffler</title>
+<title>Number Combination</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -171,7 +171,7 @@ function addGroup(initialContent = '') {
     div.className = "group";
     div.innerHTML = `
         <button class="delete-btn" onclick="removeGroup(this)">✕</button>
-        <textarea placeholder="Enter numbers (spaces or commas)">${initialContent}</textarea>
+        <textarea placeholder="Enter numbers">${initialContent}</textarea>
     `;
     document.getElementById("groups").appendChild(div);
     div.querySelector("textarea").addEventListener('input', saveGroups);
@@ -304,3 +304,4 @@ window.onload = loadGroups;
 </script>
 </body>
 </html>
+
