@@ -244,7 +244,7 @@ function rumble() {
     const container = document.getElementById("output-container");
     container.innerHTML = '';
 
-    const MAX_DISPLAY = 50000;
+    const MAX_DISPLAY = 100000; // display limit
 
     for (let size = maxGroupSize; size >= 2; size--) {
         if (multiset.length < size) continue;
@@ -304,5 +304,6 @@ window.onload = loadGroups;
 </script>
 </body>
 </html>
+
 
 
