@@ -1,4 +1,4 @@
-first project by my father
+first project by my father's request
 
 basically number shuffler
 
